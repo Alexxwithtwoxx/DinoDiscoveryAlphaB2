@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridLayout;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class MenuActivity extends AppCompatActivity {
             }
 
             //variables for the greatest game ever
-            int i = 5;
+            int fossils = 5;
 
         });
     }
