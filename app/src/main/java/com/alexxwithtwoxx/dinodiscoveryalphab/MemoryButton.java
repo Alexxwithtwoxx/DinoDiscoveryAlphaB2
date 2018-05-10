@@ -2,12 +2,11 @@ package com.alexxwithtwoxx.dinodiscoveryalphab;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.AppCompatDrawableManager;
 import android.widget.GridLayout;
 
 public class MemoryButton {
 
-    protected  int row;
+    protected int row;
     protected int column;
     protected int frontDrawableID;
 
@@ -24,17 +23,17 @@ public class MemoryButton {
         column = c;
         frontDrawableID = frontImageDrawableID;
 
-        front = AppCompatDrawableManager.get().getDrawable(context, frontImageDrawableID);
-        back = AppCompatDrawableManager.get().getDrawable(context, R.drawable.tile_2);
+        //front = AppCompatDrawableManager.get().getDrawable(context, frontImageDrawableID);
+        //back = AppCompatDrawableManager.get().getDrawable(context, R.drawable.tile_2);
 
-        setBackground(back);
+       // setBackground(back);
 
         GridLayout.LayoutParams tempParams = new GridLayout.LayoutParams(GridLayout.spec(r), GridLayout.spec(c));
 
-        tempParams.width = (int) getResources().getDisplayMetrics().density * 50;
-        tempParams.height = (int) getResources().getDisplayMetrics().density * 50;
+        //tempParams.width = (int) getResources().getDisplayMetrics().density * 50;
+       // tempParams.height = (int) getResources().getDisplayMetrics().density * 50;
 
-        setLayoutParams(tempParams);
+        //setLayoutParams(tempParams);
     }
 
 }
