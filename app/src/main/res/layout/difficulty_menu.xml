@@ -101,13 +101,36 @@
         android:text="@string/menu_option_difficulty"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="23sp"
-        app:fontFamily="monospace"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        app:fontFamily="@font/hanalei_fill"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/menu_option_difficulty2"
+        android:textColor="@android:color/black"
+        android:textSize="51sp"
+        app:fontFamily="@font/hanalei"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        tools:text="Difficulty" />
 
 
 </android.support.constraint.ConstraintLayout>
