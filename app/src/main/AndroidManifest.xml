@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Game4x4Activity"></activity>
+        <activity android:name=".Game4x4Activity" />
+        <activity android:name=".Scrapbook1" />
+        <activity android:name=".Scrapbook2" />
+        <activity android:name=".Scrapbook3"></activity>
     </application>
 
 </manifest>
