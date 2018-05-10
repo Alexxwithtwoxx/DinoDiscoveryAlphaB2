@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+=======
+        <activity android:name=".Game4x4Activity"></activity>
+>>>>>>> 3b21fe057d7ec96ee28e1478f63d595e569698b3
     </application>
 
 </manifest>
