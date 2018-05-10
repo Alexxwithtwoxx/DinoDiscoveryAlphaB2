@@ -16,10 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".Game4x4Activity" />
         <activity android:name=".Scrapbook1" />
         <activity android:name=".Scrapbook2" />
         <activity android:name=".Scrapbook3"></activity>
+=======
+<<<<<<< HEAD
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+=======
+        <activity android:name=".Game4x4Activity"></activity>
+>>>>>>> 3b21fe057d7ec96ee28e1478f63d595e569698b3
+>>>>>>> 384e26f9a66ea72763a426dff2ae9ee55db2494b
     </application>
 
 </manifest>
