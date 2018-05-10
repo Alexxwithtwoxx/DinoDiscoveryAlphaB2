@@ -36,6 +36,6 @@ public class Game4x4Activity extends AppCompatActivity {
 
         buttonGraphics = new int[numOfElements / 2];
 
-        buttonGraphics[0] = R.drawable.button_1;
+        buttonGraphics[0] = R.drawable.tile_1;
     }
 }
