@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">DinoDiscoveryAlphaB</string>
+    <string name="menu_option_4x3">4x3 Game</string>
+    <string name="menu_option_4x4">4x4 Game</string>
+    <string name="menu_option_5x5">5x5 Game</string>
+    <string name="menu_option_6x6">6x6 Game</string>
+    <string name="menu_option_difficulty">Difficulty</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="menu_image_difficulty">difficulty_screen</string>
+    <string name="menu_option_difficulty">Difficulty</string>
+    <string name="menu_option_difficulty">Difficulty</string>
 </resources>
