@@ -7,28 +7,31 @@
     tools:context=".Scrapbook2">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="384dp"
-        android:layout_height="272dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:contentDescription="@string stegoskeleton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/stegoskeleton" />
-
-    <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView4"
         android:layout_width="386dp"
-        android:layout_height="271dp"
+        android:layout_height="276dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:contentDescription="@string triceratopsskeleton"
+        android:contentDescription="@string/stego_skeleton"
+        android:src="@drawable/stego_skeleton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/triceratopsskeleton" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="385dp"
+        android:layout_height="272dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/triceratops_skeleton"
+        android:src="@drawable/triceratops_skeleton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.2" />
 </android.support.constraint.ConstraintLayout>
