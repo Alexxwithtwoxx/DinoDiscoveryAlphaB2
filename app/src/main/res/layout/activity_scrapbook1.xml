@@ -12,7 +12,7 @@
         android:layout_height="272dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:contentDescription="@string/rex_skeleton"
+        android:contentDescription="@string/android_contentdescription"
         android:src="@drawable/rex_skeleton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,17 +21,17 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="387dp"
+        android:layout_width="386dp"
         android:layout_height="272dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:contentDescription="@string/ptera_skeleton"
+        android:contentDescription="@string/android_contentdescription"
         android:src="@drawable/ptera_skeleton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.512" />
 </android.support.constraint.ConstraintLayout>
