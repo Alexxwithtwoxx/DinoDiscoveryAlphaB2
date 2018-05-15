@@ -11,8 +11,16 @@
     <string name="menu_option_difficulty2">Difficulty2</string>
 =======
     <string name="button_4x4_game">4x4 Game</string>
+<<<<<<< HEAD
     <string name="menu_title">Dino Discovery</string>
     <string name="menu_title_DinoDiscovery">Dino Discovery</string>
     <string name="menu_title_outline">Dino Discovery</string>
+=======
+    <string name="android_contentdescription">android:contentDescription</string>
+    <string name="android_contentdescription">android:contentDescription</string>
+    <string name="android_contentdescription">android:contentDescription</string>
+    <string name="android_contentdescription">android:contentDescription</string>
+    <string name="android_contentdescription">android:contentDescription</string>
+>>>>>>> 6f228a021139c84e1ab38bc7f7c1ef00fa67af77
     >>>>>>> 3b21fe057d7ec96ee28e1478f63d595e569698b3
 </resources>

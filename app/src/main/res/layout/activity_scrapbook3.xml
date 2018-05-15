@@ -7,10 +7,19 @@
     tools:context=".Scrapbook3">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="271dp"
-        app:srcCompat="@drawable/parasaurskeleton"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="148dp" />
+        android:id="@+id/imageView7"
+        android:layout_width="393dp"
+        android:layout_height="276dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/android_contentdescription"
+        android:src="@drawable/parasaur_skeleton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
 </android.support.constraint.ConstraintLayout>
